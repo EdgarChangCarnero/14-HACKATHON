@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list{
+    width: 40%;
+    box-shadow: 0 0 10px 10px var(--plomo);
+    margin: 2em;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+}
+.addUser{
+    width: 20%;
+    margin: 1em;
+    padding: .5em;
+    background-color: var(--skyblue);
+}
+
+.borrar-user {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+}
+.borrar-user:hover {    
+    color: blue;
+}
